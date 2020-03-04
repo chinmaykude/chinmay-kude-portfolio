@@ -21,7 +21,8 @@
 </head>
 
 <body>
-    <!-- Profile Image -->
+    <div class="container-fluid">
+        <!-- Profile Image -->
     <div class="imageBox">
         <img style="height: 200px; width:200px; border:10px solid #529ceb" class="rounded-circle shadow"
             src="resources/images/profile/profile_image.png">
@@ -129,23 +130,23 @@
 
     <!-- Proficiencies Section -->
     <div class="mb-5 mt-5">
-        <h2 class="text-center text-muted" style=" font-family: 'Kodchasan';"><strong>Proficiencies</strong></h2>
+        <h2 class="text-center text-muted" style="font-family: 'Kodchasan';"><strong>Proficiencies</strong></h2>
     </div>
 
     <div class="mt-5">
         <div class="container-fluid text-center">
-            <div class="row">
+            <div class="row" style=" font-family: 'Kodchasan';">
                 <div class="col-md-4"><img class="mb-2" src="resources/images/proficiencies//react.svg"
-                        style="width: 105px;">
-                    <h4 class="text-muted " style="margin-top:35px;"><strong>React</strong></h4>
+                        style="width: 105px; color: #529ceb">
+                    <h4 class="text-secondary " style="margin-top:35px;"><p>React</p></h4>
                 </div>
                 <div class="col-md-4"><img class="mb-2" src="resources//images/proficiencies/css3.svg"
-                        style="width: 93px; height:120px;">
-                    <h4 class="text-muted mb-3 mt-1"><strong>Frontend</strong><br></h4>
+                        style="width: 93px; height:120px; color: #529ceb">
+                    <h4 class="text-secondary mb-3 mt-1"><p>Frontend</p><br></h4>
                 </div>
-                <div class="col-md-4"><img class="mb-2" style="height: 110px;"
+                <div class="col-md-4"><img class="mb-2" style="height: 110px; color: #529ceb"
                         src="resources//images/proficiencies/ds.svg">
-                    <h4 class="text-muted mt-3 mb-3 "><strong>Data Structures</strong><br></h4>
+                    <h4 class="text-secondary mt-3 mb-3 "><p>Data Structures</p><br></h4>
                 </div>
             </div>
         </div>
@@ -348,7 +349,35 @@
     </div>
     </div>
     </div>
-
+    <!-- Masai learnings in hrs -->
+    <div class="container-fluid text-center my-5" style="font-family: 'Kodchasan';">
+        <div class="row">
+            <div class="col-12 col-md-3 m-auto">
+                <div style="height:220px;width:220px;border:15px solid #529ceb;" class="text-center rounded-circle m-auto">
+                    <p class="font-weight-bold pt-5 h1 text-center m-auto">1200+</p>
+                    <span class="h4">Hours<br> <small>of Coding</small></span>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 m-auto">
+                <div style="height:220px;width:220px;border:15px solid #529ceb;" class="text-center rounded-circle m-auto">
+                    <p class="font-weight-bold pt-5 h1 m-auto">200+</p>
+                    <span class="h4">HackerRank <br><small>Problems</small></span>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 m-auto">
+                <div style="height:220px;width:220px;border:15px solid #529ceb;" class="text-center rounded-circle m-auto">
+                    <p class="font-weight-bold pt-5 h1 m-auto">250+</p>
+                    <span class="h4">Git <br> <small>Commits</small></span>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 m-auto">
+                <div style="height:220px;width:220px;border:15px solid #529ceb;" class="text-center rounded-circle m-auto">
+                    <p class="font-weight-bold h1 pt-5 m-auto">100+</p>
+                    <span class="h4">Hours<br><small>Soft Skills</small></span>
+                </div>
+            </div>
+        </div>
+    </div>
     <hr>
     <!-- Github streak -->
     <div class="container p-5">
@@ -358,6 +387,7 @@
             <!-- Loading stuff -->
             Loading the data just for you.
         </div>
+    </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
